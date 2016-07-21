@@ -1,0 +1,31 @@
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  font-family: 'Open Sans',sans-serif;
+  font-size: 14px;
+  width: 100% !important;
+  border: none; }
+
+.top {
+  height: 130px;
+  background-color: #21a6fa; }
+
+.container {
+  max-width: 1128px;
+  margin: auto; }
+
+.logo {
+  float: left; }
+
+.contact {
+  color: white;
+  float: right; }
+  .contact ul {
+    list-style: none; }
+  .contact li {
+    display: inline-block; }
