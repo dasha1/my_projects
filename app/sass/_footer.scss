@@ -1,0 +1,63 @@
+@import "variables";
+#main-footer  {
+  background-color:#032649 ;
+  height:320px ;
+  color: white;
+   .footer-item{
+     display: table-cell;
+     text-align: center;
+     padding: 15px 20px;
+   }
+  .footer-img {
+    width: 70px;
+    height: 75px;
+    display: block;
+    margin: 0 auto;
+  }
+  #phone {
+    background-image: url("#{$imgPath}c_phone.png");
+    @include footer-img
+  }
+  #email{
+    background-image: url("#{$imgPath}c_email.png");
+    @include footer-img
+  }
+  #skype {
+    background-image: url("#{$imgPath}c_skype.png");
+    @include footer-img
+  }
+  #adress {
+    background-image: url("#{$imgPath}c_adress.png");
+    @include footer-img
+  }
+  #footer-social {
+    width: 236px;
+    height: 56px;
+    display: block;
+    margin: 0 auto;
+  }
+  .social-item{
+    width: 36px;
+    height: 36px;
+    padding: 10px 19px;
+    display: inline-block;
+  }
+  #vk{
+    background-image: url("#{$imgPath}soc_vk.png");
+    @include footer-img
+  }
+  #tw{
+    background-image: url("#{$imgPath}soc_tw.png");
+    @include footer-img
+  }
+  #fb{
+    background-image: url("#{$imgPath}soc_fb.png");
+    @include footer-img
+  }
+  #footer-copiright {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+  }
+}
+

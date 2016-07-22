@@ -1,0 +1,18 @@
+.plan
+{
+  padding-top: 100px;
+  background-color: $top-content-color;
+  color: $white;
+  li::before{
+    content: url("../img/arrow.png");
+    float: left;
+    margin-top: 24px;
+  }
+  p {
+    float: right;
+    margin: 24px;
+  }
+  ul {
+    margin-top: 50px;
+  }
+}

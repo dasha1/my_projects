@@ -1,0 +1,52 @@
+@import "variables";
+header{
+  color: $white;
+}
+#top {
+  height: 130px;
+  background-color: $top-color;
+}
+#logo {float: left;
+  padding-top: 25px;}
+#contact {
+  padding-top: 18px;
+  float: left;
+  .contact-items {
+    float: right;
+    .contact-em {
+        p:before{
+          content: url("#{$imgPath}c_email.png");
+          padding: $padding;
+        }}
+    .contact-ph {
+      p:before{
+        content: url("#{$imgPath}c_phone.png");
+        padding: $padding;
+      }}
+    .contact-ad {
+      p:before{
+        content: url("#{$imgPath}c_adress.png");
+        padding: $padding;
+      }}
+    .contact-sk {
+      p:before{
+        content: url("#{$imgPath}c_skype.png");
+        padding: $padding;
+      }}
+    p {float: right;
+    }
+  }
+}
+.top-content{
+  background-color: $top-content-color;
+  height:348px ;
+}
+.top-text{
+  float: left;
+  padding-top:93px;
+
+}
+.top-img{float: right;
+  position: inherit;
+  padding-top: 34px;}
+

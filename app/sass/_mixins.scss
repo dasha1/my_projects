@@ -1,0 +1,31 @@
+@import "variables";
+@mixin border-color {
+  hr{
+  border-top:1px solid $color-light-grey ;
+  }
+}
+@mixin line-up {
+  hr {
+    width: $line-width-rotate;
+    -webkit-transform:rotate(150deg);
+    -moz-transform: rotate(150deg);
+    -ms-transform: rotate(150deg);
+    -o-transform: rotate(150deg);
+  }
+}
+@mixin line-down{
+  hr {
+    width: $line-width-rotate;
+    -webkit-transform:rotate(-150deg);
+    -moz-transform: rotate(-150deg);
+    -ms-transform: rotate(-150deg);
+    -o-transform: rotate(-150deg);
+  }
+}
+@mixin footer-img
+{
+  background: {
+    position: center center;
+    repeat: no-repeat;
+  };
+}

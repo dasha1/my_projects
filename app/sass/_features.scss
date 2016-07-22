@@ -1,0 +1,98 @@
+.fearutes{
+  padding-top:72px ;
+  padding-bottom: 70px;
+  color:$feature-color;
+  font-size:15px;
+};
+.top-items{
+  &.item {
+    float: left;
+    text-align: center;
+  }
+}
+.item-top,.item-bottom {
+  width: 302px;
+}
+.line-top-left {
+  width: $line-width-rotate;
+  margin-top: -14px;
+  float: right;
+  @include border-color;
+  @include line-down;
+}
+.line-top-right{
+  width: $line-width-rotate;
+  margin-top: 47px;
+  @include border-color;
+  @include line-up;
+
+}
+.line-top-r{float: right;}
+.line-top-l,.line-top-r{@include border-color;
+  width: $line-width;
+}
+.line-top-center{
+  @include border-color;
+  width: $line-width;
+  margin: auto;
+}
+
+.line-center-left {
+  @include border-color;
+  width: 84px;
+  float: right;
+  hr{
+    margin-top: 11px;
+  }
+}
+.line-center-right{
+  @include border-color;
+  width: 84px;
+  hr{
+    margin-top: 11px;
+  }
+}
+.center-left,.center-right{
+  margin-top: 230px;
+}
+.center-right-text{
+  float: right;
+}
+.center-left-text,.line-center-right {
+  float: left;
+}
+.img-google img{
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.bottom-items{
+  @include border-color;
+  text-align: center;
+}
+.line-bottom-l,.line-bottom-center,.line-bottom-r {
+  width: $line-width;
+}
+.line-bottom-center{margin: auto;}
+.line-bottom-left{
+  @include line-up;
+  width: $line-width-rotate;
+  float: right;
+  hr {
+    margin-top: -48px;
+  }
+}
+.line-bottom-right {
+  @include line-down;
+  width: $line-width-rotate;
+  float: left;
+  hr {
+    margin-top: -48px;
+  }
+}
+.line-bottom-r{
+  float: right;
+}
+.bottom-right-text{
+  float: right;
+}

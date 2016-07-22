@@ -1,0 +1,97 @@
+@import "reset";
+@import "mixins";
+@import "footer";
+@import "header";
+@import "variables";
+@import "features";
+@import "certificates";
+@import "plan";
+.container {
+  max-width: 1128px;
+  margin: auto;
+}
+.advertising
+{
+  height: 192px;
+  background-color:$orange ;
+  color: $white;
+  p {
+    margin-top: 45px ;
+  }
+}
+.order-form{
+  background-color:$space-color;
+  padding-bottom: 100px;
+}
+.rocketmen {
+  position: inherit;
+  margin-top: -25px;
+  float: left;
+}
+.order-f {
+  height: 423px;
+  width: 840px;
+  background-color: $white;
+  border-radius: 10px;
+  position: absolute;
+  margin-top: 143px;
+  margin-left: 192px;
+}
+.order-blank{
+  text-align: center;
+  padding-top: 37px ;
+
+  p {
+    color: $orange;
+    font-size: 33px;
+  }
+  input {
+    width: 340px;
+    border-radius: 5px;
+    margin: 12px;
+    height: 47px;
+    border:1px solid $color-light-grey ;
+    padding-left: 25px;
+  }
+}
+.keywords input {
+  height: 192px;
+}
+.button-rocket {
+  p{color:$white;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 55px;
+ }
+  button {
+    background-color: white;
+    border: none;
+  }
+}
+.order-space{
+  height: 200px;
+  background-color: $space-color;
+  text-align: center;
+  padding-top: 70px;
+
+}
+.button-rocket-second{
+  button {
+    border: none;
+    background-color:$space-color ;
+  }
+  p{
+    color:$white;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 55px;
+  }
+}
+.seo-text
+{
+  background-color: #dddddd;
+  height: 193px;
+}
+.clients {
+  text-align: center;
+}
